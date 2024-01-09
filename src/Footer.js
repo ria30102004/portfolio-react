@@ -13,9 +13,9 @@ function Footer(){
             <div className="links">
                 <ul className='footlinks'>
                     <li className="site">Resume</li>
-                    <li className="site"><FontAwesomeIcon icon={faGithub} size='lg'/></li>
-                    <li className="site"><FontAwesomeIcon icon={faLinkedin} size='lg'/></li>
-                    <li className="site"><FontAwesomeIcon icon={faInstagram} size='lg'/></li>
+                    <a href="https://github.com/ria30102004"><li className="site"><FontAwesomeIcon icon={faGithub} size='lg'/></li></a>
+                    <a href="https://www.linkedin.com/in/ria-ambadan-a722a0238"><li className="site"><FontAwesomeIcon icon={faLinkedin} size='lg'/></li></a>
+                    <a href="https://www.instagram.com/ria.a.3010/"><li className="site"><FontAwesomeIcon icon={faInstagram} size='lg'/></li></a>
                 </ul>
             </div>
         </div>
