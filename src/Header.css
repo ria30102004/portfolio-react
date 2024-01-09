@@ -1,0 +1,40 @@
+
+li{
+    color: white;
+
+}
+.navlinks{
+    list-style-type: none;
+    display: flex;
+}
+.link{
+    margin-right: 6rem;
+    font-size: 1.3rem;
+    
+}
+.linkedin{
+    margin-right: 9rem;
+}
+.git,.linkedin { transition: all .2s ease-in-out; }
+.git:hover,.linkedin:hover{
+    transform: scale(1.4) translateY(-0.25em);
+    cursor: pointer;
+}
+.resume{ transition: all .2s ease-in-out;}
+.resume:hover{
+    transform: scale(1.05) translateY(-0.25em);
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left:9rem;
+    
+}
+.name{
+    font-size: 2rem;
+    cursor: pointer;   
+}
+

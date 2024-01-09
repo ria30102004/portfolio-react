@@ -1,0 +1,55 @@
+.bod{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 7rem;
+    
+}
+.upper{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.tag{
+  margin-top: 1.2rem;
+    font-size: 6rem;
+}
+.tag b{
+   
+    font-size: 6rem;
+    animation: color-change 30s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    10% { color: orange; }
+    20% { color: yellow; }
+    30% { color: lightgreen; }
+    40% { color: green; }
+    50% { color: blue; }
+    60% { color: purple; }
+    70% { color: lightblue; }
+    
+   
+    80% { color: pink; }
+    90% { color: peru; }
+    100% { color: red; }
+   
+  }
+  .lower{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .info{
+    
+    font-size: 1.3rem;
+    
+  }
+  .pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    justify-content: center;
+    font-size: 1.3rem;
+  }

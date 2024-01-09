@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.base{
+    margin-left: 13rem;
+    margin-right: 13rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.site{
+    margin-right: 4.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;  
+
+}
+.site { transition: all .2s ease-in-out; }
+.site:hover{
+    transform: scale(1.4) translateY(-0.25em);
+    cursor: pointer;
+}
+.links{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

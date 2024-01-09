@@ -1,0 +1,101 @@
+.f-left, .s-left, .t-left {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-name: slideLeft;
+  }
+  
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+ 
+  .f-right, .s-right, .t-right {
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-name: slideRight;
+    animation-delay: 2s;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+.proj{
+    display: flex;
+    flex-direction: row;
+}
+.f-left,.s-left,.t-left{
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 22rem;
+    width: 75rem;  
+}
+.image-with-border {
+    border: 0.1rem solid; 
+    border-radius: 1.1rem; 
+    box-shadow: 0rem 1.2rem 2.5rem 0rem rgba(255, 255, 255, 0.7);
+  }
+.f-right,.s-right,.t-right{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    margin-right: 8rem;
+    height: 30rem;
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+}
+.open{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 3rem;
+    padding: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+.open:hover{
+    transform: scale(1.15);
+}
+.desc,.tool{
+    margin: 1rem 0rem 0rem 1.2rem;
+}
+.head{
+    font-size: 2.5rem;
+}
+.list{
+    list-style-type: disc;
+}
+.unl{ 
+    margin: 1rem 0rem 0rem 1.2rem;
+    padding: 0rem 0rem 1.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+/*
+.s-left{
+    background-image: url(C:\Users\ranje\OneDrive\Documents\C Journal\QB\exam\sem3\portfolio-react\portfolio-making\images\snake.png);
+    background-size: cover;
+}
+.f-left{
+    background-image: url(C:\Users\ranje\OneDrive\Documents\C Journal\QB\exam\sem3\portfolio-react\portfolio-making\images\lms.png);
+    background-size: cover;
+}
+.t-left{
+    background-image: url(C:\Users\ranje\OneDrive\Documents\C Journal\QB\exam\sem3\portfolio-react\portfolio-making\images\landing.png);
+    background-size: cover;
+}*/
